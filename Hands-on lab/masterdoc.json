@@ -1,0 +1,16 @@
+[
+    {
+      "Name": "MCW-Analyzing-text-with-Azure-Machine-Learning-and-Cognitive-Services",
+      "Language": "English",
+      "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MCW/MCW-Analyzing-text-with-Azure-Machine-Learning-and-Cognitive-Services/Prod/Hands-on%20lab/Before%20the%20HOL%20-%20Analyzing%20text%20with%20Azure%20Machine%20Learning%20and%20Cognitive%20Services.md",
+          "Order": 1  
+        },
+         {
+          "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MCW/MCW-Analyzing-text-with-Azure-Machine-Learning-and-Cognitive-Services/Prod/Hands-on%20lab/HOL%20step-by%20step%20-%20Analyzing%20text%20with%20Azure%20Machine%20Learning%20and%20Cognitive%20Services.md",
+          "Order": 2 
+        }
+      ]
+    }
+  ]
