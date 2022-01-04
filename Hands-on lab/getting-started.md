@@ -45,7 +45,6 @@ In this task, you import Jupyter notebooks from GitHub that you will use to comp
    - `pip install -r requirements.txt`
    - `pip install ipykernel==6.6.0`
 
-
-    > Note: You can safely ignore any dependency errors during installation.
+> Note: You can safely ignore any dependency errors during installation.
 
 You should follow all these steps provided *before* attending the Hands-on lab.
