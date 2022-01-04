@@ -1,6 +1,6 @@
 ## **Getting Started**
 
-1. Navigate to https://portal.azure.com/  and login to Azure  with the below Azure Username and Password
+1. Open the Azure Portal from the Desktop and login to Azure with the below Azure Username and Password
 
    * **Azure Usename/Email**:  <inject key="AzureAdUserEmail"></inject>
    * **Azure Password**:  <inject key="AzureAdUserPassword"></inject>
@@ -45,6 +45,6 @@ In this task, you import Jupyter notebooks from GitHub that you will use to comp
    - `pip install -r requirements.txt`
    - `pip install ipykernel==6.6.0`
 
-> Note: You can safely ignore any dependency errors during installation.
+> Note: You can safely ignore any dependency errors during installation and re-run the commands.
 
 You should follow all these steps provided *before* attending the Hands-on lab.
