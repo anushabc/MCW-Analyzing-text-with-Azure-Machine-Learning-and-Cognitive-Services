@@ -161,7 +161,7 @@ In this exercise, you learn how to create, run, and explore automated machine le
 
 4. In the `Additional configurations` dialog make the following selections and then select **Save**:
 
-   - Training job timeout (hours): **1**
+   - Training job time (hours): **1**
 
 5. In the `Select task type` page select **Next**.
 
@@ -212,7 +212,7 @@ In this task, you will retrieve the API key and endpoint URI associated with you
 
    ![Resource groups is highlighted in the Azure services list.](media/azure-services-resource-groups.png "Azure services")
 
-2. Select the `hands-on-lab-SUFFIX` resource group you created for this hands-on lab from the list of resource groups.
+2. Select the `mcwailab-SUFFIX` resource group from the list of resource groups.
 
     ![The hands-on-lab-SUFFIX resource group is highlighted in the list of resource groups.](media/resource-groups.png "Resource groups")
 
