@@ -144,7 +144,7 @@ In this exercise, you learn how to create, run, and explore automated machine le
 
 1. Select the dataset **claims-dataset** created during `Exercise 2` and then select **Next**.
 
-  ![In the create new automated ml run page the dataset named claims-dataset is highlighted and the button named next is also highlighted.](media/automl-02.png "Select dataset")
+   ![In the create new automated ml run page the dataset named claims-dataset is highlighted and the button named next is also highlighted.](media/automl-02.png "Select dataset")
 
 2. In the `Configure run` page, make the following selections, and then select **Next**:
 
@@ -152,7 +152,7 @@ In this exercise, you learn how to create, run, and explore automated machine le
    - Target column: **labels (Integer)**
    - Select Azure ML compute cluster: **amlcompute-ad**
 
-  ![In the configure run page the above listed values are filled in and the button named next is highlighted.](media/automl-03.png "Configure run")
+   ![In the configure run page the above listed values are filled in and the button named next is highlighted.](media/automl-03.png "Configure run")
 
 3. In the `Select task type` page make the following selections, and then open the `Additional configurations` dialog by selecting **View additional configuration settings**:
 
@@ -165,7 +165,7 @@ In this exercise, you learn how to create, run, and explore automated machine le
 
 5. In the `Select task type` page select **Next**.
 
-  ![In the select task type page the above listed values are filled in and the button named next is highlighted.](media/automl-04.png "Select task type")
+   ![In the select task type page the above listed values are filled in and the button named next is highlighted.](media/automl-04.png "Select task type")
 
 6. In the `Select the validation and test type` page make the following selections and then select **Finish** to start the AutoML experiment run.
 
@@ -180,23 +180,23 @@ In this exercise, you learn how to create, run, and explore automated machine le
 
   ![The AutoML run details page is shown, with the run status highlighted.](media/automl-05.png "Monitor AutoML run")
 
-> **Note**: The Automated ML run will for around 40-60 minutes. It is recommended you complete Exercise 4 and then return to complete Exercise 3.
+   > **Note**: The Automated ML run will for around 40-60 minutes. It is recommended you complete Exercise 4 and then return to complete Exercise 3.
 
 ### Task 4: Review best model performance
 
 1. Select the **Models** tab to review the model pipelines that were trained during the experiment run.
 
-  ![The AutoML run details page is shown, with the run status and the models tab highlighted.](media/automl-06.png "AutoML run details")
+   ![The AutoML run details page is shown, with the run status and the models tab highlighted.](media/automl-06.png "AutoML run details")
 
 1. Select the **algorithm** with the best score on the primary metric `AUC weighted`.
 
-  ![Models page that shows all the model pipelines that were trained during the AutoML run, with the best performing algorithm pipeline highlighted.](media/automl-07.png "Trained Models")
+   ![Models page that shows all the model pipelines that were trained during the AutoML run, with the best performing algorithm pipeline highlighted.](media/automl-07.png "Trained Models")
 
 1. Select the **Metrics** tab to review the various performance metrics and charts.
 
-  ![Model metrics tab showing various model performance metrics and charts.](media/automl-08.png "Model Metrics")
+   ![Model metrics tab showing various model performance metrics and charts.](media/automl-08.png "Model Metrics")
 
-  > **Note**: You have the option to deploy the trained model pipeline to either Azure Container Instance or Azure Kubernetes Service directly from the Azure ML Studio.
+   > **Note**: You have the option to deploy the trained model pipeline to either Azure Container Instance or Azure Kubernetes Service directly from the Azure ML Studio.
 
 ## Exercise 4: Completing the solution
 
