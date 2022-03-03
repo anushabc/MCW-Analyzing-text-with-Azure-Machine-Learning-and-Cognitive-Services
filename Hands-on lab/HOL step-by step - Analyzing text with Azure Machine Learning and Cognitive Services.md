@@ -230,32 +230,4 @@ In this task, you will retrieve the API key and endpoint URI associated with you
 
 2. Follow the steps within the notebook to complete the lab and view the result of combining Cognitive Services with your Azure Machine Learning Services.
 
-## After the hands-on lab
 
-Duration: 5 minutes
-
-To avoid unexpected charges, it is recommended that you clean up all your lab resources when you complete the lab.
-
-### Task 1: Clean up lab resources
-
-1. In the [Azure portal](https://portal.azure.com), select **Resource groups** from the Azure services list.
-
-   ![Resource groups is highlighted in the Azure services list.](media/azure-services-resource-groups.png "Azure services")
-
-2. Select the `hands-on-lab-SUFFIX` resource group you created for this hands-on lab from the list of resource groups.
-
-    ![The hands-on-lab-SUFFIX resource group is highlighted in the list of resource groups.](media/resource-groups.png "Resource groups")
-
-3. Select **Delete resource group** from the command bar.
-
-    ![Delete resource group is highlighted on the toolbar of the hands-on-lab-SUFFIX resource group.](media/delete-resource-group.png "Delete resource group")
-
-4. In the confirmation dialog that appears, enter the name of the resource group, and select **Delete**.
-
-5. Wait for confirmation the Resource Group has been successfully deleted. If you don't wait, and the delete fails for some reason, you may be left with resources running that were not expected. You can monitor using the Notifications dialog, which is accessible from the Alarm icon.
-
-    ![The Notifications dialog box has a message stating that the resource group is being deleted.](media/notifications-deleting-resource-group.png 'Notifications dialog box')
-
-6. When the Notification indicates success, the cleanup is complete.
-
-You should follow all steps provided _after_ attending the Hands-on lab.
