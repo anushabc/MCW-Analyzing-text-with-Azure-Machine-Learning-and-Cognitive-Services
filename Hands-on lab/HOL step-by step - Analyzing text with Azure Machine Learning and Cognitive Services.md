@@ -214,11 +214,11 @@ In this task, you will retrieve the API key and endpoint URI associated with you
 
 2. Select the `mcwailab-SUFFIX` resource group from the list of resource groups.
 
-    ![The hands-on-lab-SUFFIX resource group is highlighted in the list of resource groups.](media/resource-groups.png "Resource groups")
+    ![The hands-on-lab-SUFFIX resource group is highlighted in the list of resource groups.](media/resource-groups-1.png "Resource groups")
 
 3. Select your Text Analytics Cognitive Services resource from the list.
 
-    ![The computer vision resource is highlighted in the list of resources in the hands-on-lab-SUFFIX resource group.](media/resources-text-analytics.png "Text Analytics resource")
+    ![The computer vision resource is highlighted in the list of resources in the hands-on-lab-SUFFIX resource group.](media/resource-groups-2.png "Text Analytics resource")
 
 4. Select **Keys and Endpoint** from the left-hand navigation menu and then copy the **Key 1** and **Endpoint** values into a text editor, such as Notepad.exe, or something similar as you will need this value later in this exercise.
 
