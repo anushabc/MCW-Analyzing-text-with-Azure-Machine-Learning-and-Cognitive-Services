@@ -15,7 +15,7 @@
 
 In this task, you import Jupyter notebooks from GitHub that you will use to complete the exercises in this hands-on lab.
 
-1. Navigate to **mcwailab-SUFFIX** resource group and select the Machine Learning workspace named **SUFFIX**
+1. Navigate to **mcwailab-SUFFIX** resource group and select the Machine Learning workspace named <inject key="AML Workspace Name"></inject>
 
 1. Select the **Overview** from the Machine Learning workspace navigation menu and click on **Launch now** under **Manage your machine learning lifecycle** to launch the workspace.
 
