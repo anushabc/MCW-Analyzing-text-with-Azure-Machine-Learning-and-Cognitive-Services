@@ -144,7 +144,7 @@ In this exercise, you learn how to create, run, and explore automated machine le
 
 1. Select the dataset **claims-dataset** created during `Exercise 2` and then select **Next**.
 
-  ![In the create new automated ml run page the dataset named claims-dataset is highlighted and the button named next is also highlighted.](media/automl-02.png "Select dataset")
+   ![In the create new automated ml run page the dataset named claims-dataset is highlighted and the button named next is also highlighted.](media/automl-02.png "Select dataset")
 
 2. In the `Configure run` page, make the following selections, and then select **Next**:
 
@@ -152,7 +152,7 @@ In this exercise, you learn how to create, run, and explore automated machine le
    - Target column: **labels (Integer)**
    - Select Azure ML compute cluster: **amlcompute-ad**
 
-  ![In the configure run page the above listed values are filled in and the button named next is highlighted.](media/automl-03.png "Configure run")
+   ![In the configure run page the above listed values are filled in and the button named next is highlighted.](media/automl-03.png "Configure run")
 
 3. In the `Select task type` page make the following selections, and then open the `Additional configurations` dialog by selecting **View additional configuration settings**:
 
@@ -161,11 +161,11 @@ In this exercise, you learn how to create, run, and explore automated machine le
 
 4. In the `Additional configurations` dialog make the following selections and then select **Save**:
 
-   - Training job timeout (hours): **1**
+   - Training job time (hours): **1**
 
 5. In the `Select task type` page select **Next**.
 
-  ![In the select task type page the above listed values are filled in and the button named next is highlighted.](media/automl-04.png "Select task type")
+   ![In the select task type page the above listed values are filled in and the button named next is highlighted.](media/automl-04.png "Select task type")
 
 6. In the `Select the validation and test type` page make the following selections and then select **Finish** to start the AutoML experiment run.
 
@@ -180,23 +180,23 @@ In this exercise, you learn how to create, run, and explore automated machine le
 
   ![The AutoML run details page is shown, with the run status highlighted.](media/automl-05.png "Monitor AutoML run")
 
-> **Note**: The Automated ML run will for around 40-60 minutes. It is recommended you complete Exercise 4 and then return to complete Exercise 3.
+   > **Note**: The Automated ML run will for around 40-60 minutes. It is recommended you complete Exercise 4 and then return to complete Exercise 3.
 
 ### Task 4: Review best model performance
 
 1. Select the **Models** tab to review the model pipelines that were trained during the experiment run.
 
-  ![The AutoML run details page is shown, with the run status and the models tab highlighted.](media/automl-06.png "AutoML run details")
+   ![The AutoML run details page is shown, with the run status and the models tab highlighted.](media/automl-06.png "AutoML run details")
 
 1. Select the **algorithm** with the best score on the primary metric `AUC weighted`.
 
-  ![Models page that shows all the model pipelines that were trained during the AutoML run, with the best performing algorithm pipeline highlighted.](media/automl-07.png "Trained Models")
+   ![Models page that shows all the model pipelines that were trained during the AutoML run, with the best performing algorithm pipeline highlighted.](media/automl-07.png "Trained Models")
 
 1. Select the **Metrics** tab to review the various performance metrics and charts.
 
-  ![Model metrics tab showing various model performance metrics and charts.](media/automl-08.png "Model Metrics")
+   ![Model metrics tab showing various model performance metrics and charts.](media/automl-08.png "Model Metrics")
 
-  > **Note**: You have the option to deploy the trained model pipeline to either Azure Container Instance or Azure Kubernetes Service directly from the Azure ML Studio.
+   > **Note**: You have the option to deploy the trained model pipeline to either Azure Container Instance or Azure Kubernetes Service directly from the Azure ML Studio.
 
 ## Exercise 4: Completing the solution
 
@@ -212,13 +212,13 @@ In this task, you will retrieve the API key and endpoint URI associated with you
 
    ![Resource groups is highlighted in the Azure services list.](media/azure-services-resource-groups.png "Azure services")
 
-2. Select the `hands-on-lab-SUFFIX` resource group you created for this hands-on lab from the list of resource groups.
+2. Select the `mcwailab-SUFFIX` resource group from the list of resource groups.
 
-    ![The hands-on-lab-SUFFIX resource group is highlighted in the list of resource groups.](media/resource-groups.png "Resource groups")
+    ![The hands-on-lab-SUFFIX resource group is highlighted in the list of resource groups.](media/resource-groups-1.png "Resource groups")
 
 3. Select your Text Analytics Cognitive Services resource from the list.
 
-    ![The computer vision resource is highlighted in the list of resources in the hands-on-lab-SUFFIX resource group.](media/resources-text-analytics.png "Text Analytics resource")
+    ![The computer vision resource is highlighted in the list of resources in the hands-on-lab-SUFFIX resource group.](media/resource-groups-2.png "Text Analytics resource")
 
 4. Select **Keys and Endpoint** from the left-hand navigation menu and then copy the **Key 1** and **Endpoint** values into a text editor, such as Notepad.exe, or something similar as you will need this value later in this exercise.
 
@@ -230,32 +230,4 @@ In this task, you will retrieve the API key and endpoint URI associated with you
 
 2. Follow the steps within the notebook to complete the lab and view the result of combining Cognitive Services with your Azure Machine Learning Services.
 
-## After the hands-on lab
 
-Duration: 5 minutes
-
-To avoid unexpected charges, it is recommended that you clean up all your lab resources when you complete the lab.
-
-### Task 1: Clean up lab resources
-
-1. In the [Azure portal](https://portal.azure.com), select **Resource groups** from the Azure services list.
-
-   ![Resource groups is highlighted in the Azure services list.](media/azure-services-resource-groups.png "Azure services")
-
-2. Select the `hands-on-lab-SUFFIX` resource group you created for this hands-on lab from the list of resource groups.
-
-    ![The hands-on-lab-SUFFIX resource group is highlighted in the list of resource groups.](media/resource-groups.png "Resource groups")
-
-3. Select **Delete resource group** from the command bar.
-
-    ![Delete resource group is highlighted on the toolbar of the hands-on-lab-SUFFIX resource group.](media/delete-resource-group.png "Delete resource group")
-
-4. In the confirmation dialog that appears, enter the name of the resource group, and select **Delete**.
-
-5. Wait for confirmation the Resource Group has been successfully deleted. If you don't wait, and the delete fails for some reason, you may be left with resources running that were not expected. You can monitor using the Notifications dialog, which is accessible from the Alarm icon.
-
-    ![The Notifications dialog box has a message stating that the resource group is being deleted.](media/notifications-deleting-resource-group.png 'Notifications dialog box')
-
-6. When the Notification indicates success, the cleanup is complete.
-
-You should follow all steps provided _after_ attending the Hands-on lab.

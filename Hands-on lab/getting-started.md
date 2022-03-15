@@ -15,19 +15,25 @@
 
 In this task, you import Jupyter notebooks from GitHub that you will use to complete the exercises in this hands-on lab.
 
+1. Navigate to **mcwailab-SUFFIX** resource group and select the Machine Learning workspace named **SUFFIX**
+
+1. Select the **Overview** from the Machine Learning workspace navigation menu and click on **Launch now** under **Manage your machine learning lifecycle** to launch the workspace.
+
+   ![The Jupyter link is highlighted next to the csdl-compute-SUFFIX compute instance.](media/bhol-03.png "Compute instances")
+
 1. Select the Compute Instance, **csdl-compute-SUFFIX**, and then select **Jupyter** link to open Jupyter Notebooks interface.
 
    ![The Jupyter link is highlighted next to the csdl-compute-SUFFIX compute instance.](media/ml-workspace-compute-instances.png "Compute instances")
 
-2. Check **Yes, I understand** and select **Continue** in the trusted code dialog.
+1. Check **Yes, I understand** and select **Continue** in the trusted code dialog.
 
    ![In the Always use trusted code dialog, Yes, I understand is checked, and the continue button is highlighted.](media/trusted-code-dialog.png "Always use trusted code")
 
-3. In the new Jupyter window, select **New** and then select **Terminal** from the context menu.
+1. In the new Jupyter window, select **New** and then select **Terminal** from the context menu.
 
    ![In the Jupyter notebooks interface, the New dropdown is selected, and Terminal is highlighted in the context menu.](media/jupyter-new-terminal.png "Open new terminal window")
   
-4. Run the following commands in order in the terminal window:
+1. Run the following commands in order in the terminal window:
 
    - `mkdir mcw-csdl`
    - `cd mcw-csdl`
